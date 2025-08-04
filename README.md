@@ -48,7 +48,7 @@ Currently pursuing IT, with deep interests in:
 - LinkedIn: [@prabhusiddarth](https://www.linkedin.com/in/prabhu-siddarth-157a00338/)
 - GitHub: [github.com/PRABHUSIDDARTH](https://github.com/PRABHUSIDDARTH)
 - Portfolio Website: *Coming Soon...*
-- Email: *Reach me via GitHub or LinkedIn*
+- Email: prabhusiddarth37@gmail.com
 
 ---
 

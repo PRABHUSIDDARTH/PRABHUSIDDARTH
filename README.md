@@ -16,7 +16,7 @@ Currently pursuing IT, with deep interests in:
 ---
 
 ### 📌 Notable Projects
-- **[Distraction Monitor 🧠]((https://github.com/PRABHUSIDDARTH/distraction-monitor-v1))**  
+- **[Distraction Monitor 🧠](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)**  
   AI tool to detect short-form content like reels/shorts in real-time to improve productivity.
 
 - **Helmet Detection System 🪖**  

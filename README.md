@@ -9,7 +9,7 @@ Currently pursuing IT, with deep interests in:
 - 🌌 Astrophysics & Scientific Computing
 - 🔧 Raspberry Pi Projects & Embedded Systems
 - 🎨 Graphic Designing (Photoshop, Canva)
-- 🧪 Full Stack Development (Python + JS + Flutter)
+- 🧪 Full Stack Development (Python + JS + SpringBoot)
 - 📱 Mobile + Web App Automation
 - 🛠️ Open Source Hardware-Software Integration
 

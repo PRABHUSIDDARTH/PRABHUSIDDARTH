@@ -19,14 +19,6 @@ Currently pursuing IT, with deep interests in:
 - **[Distraction Monitor 🧠](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)**  
   AI tool to detect short-form content like reels/shorts in real-time to improve productivity.
 
-- **Helmet Detection System 🪖**  
-  Raspberry Pi-based system that captures images of helmetless riders for road safety.
-
-- **IoT Smoke Alert System 🔥**  
-  Real-time alerting system using MQ-2 gas sensor and SIM800L via mobile notifications.
-
-- **Jarvis-like AI Assistant 🧞** *(Work In Progress)*  
-  Voice-powered personal assistant on Raspberry Pi with hologram UI + automation.
 
 ---
 
@@ -34,13 +26,13 @@ Currently pursuing IT, with deep interests in:
 
 - 🎯 Advanced TensorFlow/Keras Model Optimization
 - 🧠 Real-Time AI with OpenCV & Mediapipe
-- 📱 Flutter for Cross-platform App Development
+- 📱SpringBoot
 
 ---
 
 ### 🛠️ Tools & Tech
 `Python` `Flask` `TensorFlow` `Keras` `Raspberry Pi` `C` `HTML` `JavaScript` `Flutter`  
-`Arduino` `ESP32` `Firebase` `Canva` `Photoshop` `VS Code` `Git/GitHub`
+`Arduino` `ESP32` `Firebase` `Canva` `Photoshop` `VS Code` `Git/GitHub` `SpringBoot` `Java`
 
 ---
 

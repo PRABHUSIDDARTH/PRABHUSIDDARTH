@@ -37,10 +37,10 @@
 
 ## 📌 Featured Projects
 
-### [🧠 Distraction Monitor]("https://github.com/PRABHUSIDDARTH/distraction-monitor-v1")
+### [🧠 Distraction Monitor](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)
 AI-based system that detects short-form content (Reels/Shorts) in real-time to improve productivity and reduce distractions.
 
-### [🎵 Swara — Offline Music Player]("https://github.com/PRABHUSIDDARTH/SwaraApp")
+### [🎵 Swara — Offline Music Player](https://github.com/PRABHUSIDDARTH/SwaraApp)
 Custom-built Android music player using Java with MediaPlayer, Bound Services, MediaStore integration, and Room Database for offline playback.
 
 ---

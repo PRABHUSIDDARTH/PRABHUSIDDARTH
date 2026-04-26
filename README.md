@@ -6,11 +6,10 @@ I'm a passionate tech explorer building creative and purposeful AI-powered tools
 Currently pursuing IT, with deep interests in:
 
 
-- 🌌 Astrophysics & Scientific Computing
+- 📱 Mobile + Web App Automation
+- 🧪 Full Stack Development (Java + JS + SpringBoot)
 - 🔧 Raspberry Pi Projects & Embedded Systems
 - 🎨 Graphic Designing (Photoshop, Canva)
-- 🧪 Full Stack Development (Java + JS + SpringBoot)
-- 📱 Mobile + Web App Automation
 - 🛠️ Open Source Hardware-Software Integration
 
 ---

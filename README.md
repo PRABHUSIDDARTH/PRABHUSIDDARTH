@@ -18,6 +18,8 @@ Currently pursuing IT, with deep interests in:
 ### 📌 Notable Projects
 - **[Distraction Monitor 🧠](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)**  
   AI tool to detect short-form content like reels/shorts in real-time to improve productivity.
+- **[Swara App🎵](https://github.com/PRABHUSIDDARTH/SwaraApp)**
+  Custom-built Android music player using Java, MediaPlayer, Bound Services, and Room Database for efficient offline playback.  
 
 
 ---
@@ -33,6 +35,7 @@ Currently pursuing IT, with deep interests in:
 ### 🛠️ Tools & Tech
 `Python` `Flask` `TensorFlow` `Keras` `Raspberry Pi` `C` `HTML` `JavaScript` `Flutter`  
 `Arduino` `ESP32` `Firebase` `Canva` `Photoshop` `VS Code` `Git/GitHub` `SpringBoot` `Java`
+`Android`
 
 ---
 

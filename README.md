@@ -9,7 +9,7 @@
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=PRABHUSIDDARTH&theme=tokyonight&hide_border=true&cache_seconds=1800"
+    src="https://streak-stats.demolab.com?user=PRABHUSIDDARTH&theme=tokyonight&hide_border=true"
     alt="GitHub streak stats"
   />
 </p>

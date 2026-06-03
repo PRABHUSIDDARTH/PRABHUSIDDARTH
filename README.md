@@ -31,7 +31,7 @@
 ## 🛠️ Tech Stack
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,firebase,git,github,vscode"
+    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode"
     alt="Tech stack icons"
   />
 </p>

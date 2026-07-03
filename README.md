@@ -50,7 +50,7 @@ I'm focused on becoming a strong backend engineer by building real-world project
 ## 🛠️ Tech Stack
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode,docker,kubernetes,redis,celery,aws,azure,google cloud"
+    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode,docker,kubernetes,redis,celery"
     alt="Tech stack icons"
   />
 </p>

@@ -27,39 +27,6 @@ I'm a Information Technology student with a strong interest in backend developme
 * Developing full-stack projects using **React**, **PostgreSQL**, and **Docker**
 * Practicing DSA regularly on LeetCode
 
-## Tech Stack
-
-**Languages**
-
-* Java
-* Python
-* JavaScript
-* SQL
-* C
-
-**Backend**
-
-* FastAPI
-* Spring Boot
-* REST APIs
-
-**Frontend**
-
-* React
-* HTML
-* CSS
-
-**Database**
-
-* PostgreSQL
-* MySQL
-
-**Tools**
-
-* Git & GitHub
-* Docker
-* Linux (Arch)
-* VS Code
 
 ## Interests
 
@@ -83,7 +50,7 @@ I'm focused on becoming a strong backend engineer by building real-world project
 ## 🛠️ Tech Stack
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode"
+    src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode,docker,kubernetes,redis,celery,aws,azure,google cloud"
     alt="Tech stack icons"
   />
 </p>
@@ -99,7 +66,7 @@ I'm focused on becoming a strong backend engineer by building real-world project
 
 ## 📌 Featured Projects
 
-###[Nexus Cloud- Multi cloud Orchestration](https://github.com/PRABHUSIDDARTH/NexusCloud)
+### [Nexus Cloud- Multi cloud Orchestration](https://github.com/PRABHUSIDDARTH/NexusCloud)
 NexusCloud is a Bring-Your-Own-Cloud (BYOC) multi-cloud storage orchestration platform. Connect your existing cloud accounts — AWS S3, Google Cloud Storage, Azure Blob, Cloudflare R2, Backblaze B2, Oracle Cloud, IBM Cloud — and interact with all of them through a single unified API and dashboard.
 
 ### [🧠 Distraction Monitor](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)

@@ -64,6 +64,12 @@ I'm focused on becoming a strong backend engineer by building real-world project
 
 ---
 
+## Leet Stats
+
+![Leetcode Stats](https://leetcard.jacoblin.cool/psTech?ext=heatmap)
+
+--- 
+
 ## 📌 Featured Projects
 
 ### [Nexus Cloud- Multi cloud Orchestration](https://github.com/PRABHUSIDDARTH/NexusCloud)

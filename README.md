@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hey+I'm+Prabhu+Siddarth;Software+Developer+%7C+AI+%26+IoT+Enthusiast;Building+Real-World+Tech+Solutions;Always+Learning+%26+Improving"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hey+I'm+Prabhu+Siddarth;Software+Developer+%7C+AI+%26+IoT+Enthusiast;Building+Real-World+Tech+Solutions;Always+Learning+%26+Improving;Java+Developer"
     alt="Typing intro"
   />
 </p>

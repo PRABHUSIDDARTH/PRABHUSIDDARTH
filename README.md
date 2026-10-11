@@ -18,8 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/PRABHUSIDDARTH?tab=followers"><img src="https://img.shields.io/github/followers/PRABHUSIDDARTH?label=Followers&style=flat-square&color=2563EB&logo=github" alt="Followers" /></a>
-  <a href="https://central.sonatype.com/artifact/io.github.prabhusiddarth/sidd-ai"><img src="https://img.shields.io/maven-central/v/io.github.prabhusiddarth/sidd-ai?label=sidd-ai%20on%20Maven%20Central&style=flat-square&color=C71A36&logo=apachemaven" alt="sidd-ai on Maven Central" /></a>
-  
+  <a href="https://central.sonatype.com/artifact/io.github.prabhusiddarth/sidd-ai"><img src="https://img.shields.io/maven-central/v/io.github.prabhusiddarth/sidd-ai?label=sidd-ai%20on%20Maven%20Central&style=flat-square&color=C71A36&logo=apachemaven" alt="sidd-ai on Maven Central" /></a>  
   <img src="https://komarev.com/ghpvc/?username=PRABHUSIDDARTH&label=Profile%20views&color=0EA5E9&style=flat-square" alt="Profile views" />
 </p>
 

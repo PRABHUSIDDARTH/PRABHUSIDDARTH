@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 I'm a Information Technology student with a strong interest in backend development, distributed systems, and cloud computing. I enjoy building practical software, exploring how systems work under the hood, and improving my problem-solving skills through Data Structures and Algorithms.
 
@@ -47,7 +47,7 @@ I'm focused on becoming a strong backend engineer by building real-world project
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 <p align="center">
   <img
     src="https://skillicons.dev/icons?i=java,python,js,flutter,androidstudio,spring,flask,django,firebase,git,github,vscode,docker,kubernetes,redis,celery"
@@ -70,12 +70,12 @@ I'm focused on becoming a strong backend engineer by building real-world project
 
 --- 
 
-## 📌 Featured Projects
+## Featured Projects
 
 ### [Nexus Cloud- Multi cloud Orchestration](https://github.com/PRABHUSIDDARTH/NexusCloud)
 NexusCloud is a Bring-Your-Own-Cloud (BYOC) multi-cloud storage orchestration platform. Connect your existing cloud accounts — AWS S3, Google Cloud Storage, Azure Blob, Cloudflare R2, Backblaze B2, Oracle Cloud, IBM Cloud — and interact with all of them through a single unified API and dashboard.
 
-### [🧠 Distraction Monitor](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)
+### [Distraction Monitor](https://github.com/PRABHUSIDDARTH/distraction-monitor-v1)
 AI-based system that detects short-form content (Reels/Shorts) in real-time to improve productivity and reduce distractions.
 
 **Highlights**
@@ -83,7 +83,7 @@ AI-based system that detects short-form content (Reels/Shorts) in real-time to i
 - Configurable thresholds/intervals
 - Dockerized setup + CI + smoke tests (pytest)
 
-### [🎵 Swara — Offline Music Player](https://github.com/PRABHUSIDDARTH/SwaraApp)
+### [Swara — Offline Music Player](https://github.com/PRABHUSIDDARTH/SwaraApp)
 Custom-built Android music player using Java with MediaPlayer, Bound Services, MediaStore integration, and Room Database for offline playback.
 
 **Highlights**
@@ -93,14 +93,14 @@ Custom-built Android music player using Java with MediaPlayer, Bound Services, M
 
 ---
 
-## 📚 Currently Learning
+##  Currently Learning
 - Real-time AI (OpenCV, Mediapipe)  
 - Model optimization (TensorFlow/Keras)  
 - Backend development with Spring Boot  
 
 ---
 
-## 📊 GitHub Stats (reliable widgets)
+## GitHub Stats (reliable widgets)
 > Note: Some “GitHub stats” cards (like github-readme-stats) can disappear due to rate limits.
 > The cards below are usually more reliable.
 
@@ -131,7 +131,7 @@ Custom-built Android music player using Java with MediaPlayer, Bound Services, M
 
 ---
 
-## 📫 Connect With Me
+##  Connect With Me
 <p align="center">
   <a href="https://www.linkedin.com/in/prabhu-siddarth-157a00338/">
     <img src="https://img.shields.io/badge/LinkedIn-Prabhu%20Siddarth-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
@@ -146,7 +146,7 @@ Custom-built Android music player using Java with MediaPlayer, Bound Services, M
 
 ---
 
-## 📈 Activity Graph
+## Activity Graph
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=PRABHUSIDDARTH&theme=tokyo-night&hide_border=true"
@@ -156,12 +156,12 @@ Custom-built Android music player using Java with MediaPlayer, Bound Services, M
 
 ---
 
-## ⚡ Fun Fact
+## Fun Fact
 I enjoy combining **software + hardware** to build real-world impactful systems.
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/PRABHUSIDDARTH/PRABHUSIDDARTH/output/github-contribution-grid-snake.svg"
@@ -171,4 +171,4 @@ I enjoy combining **software + hardware** to build real-world impactful systems.
 
 ---
 
-<p align="center"><b>⭐ Building. Learning. Improving. Every day.</b></p>
+<p align="center"><b>Building. Learning. Improving. Every day.</b></p>

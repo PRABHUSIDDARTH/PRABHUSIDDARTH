@@ -68,8 +68,7 @@ open_to:   backend / platform internships and open-source collaboration
       <p>An offline-first music player with native Android (Java, Media3, Room) and iOS (SwiftUI) apps. Its karaoke mode runs a small streaming neural network inside the audio pipeline and strips vocals in real time, adding roughly 23 ms of latency. No account, no network, no uploads.</p>
       <p>
         <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
-        <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 17+" />
       </p>
     </td>
     <td width="50%" valign="top">

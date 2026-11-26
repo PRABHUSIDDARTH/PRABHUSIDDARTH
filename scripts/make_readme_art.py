@@ -45,10 +45,10 @@ def header(slug, title, col):
 
 
 def card(slug, num, title, role, lines, stack, col, css, art):
-    body = (text(28, 40, f"QUEST {num}", 18, GOLD, 'font-weight="bold"') + text(692, 40, role, 18, DIM, 'text-anchor="end"')
-            + text(28, 90, title, 42, col, 'font-weight="bold"')
-            + "".join(text(28, 130 + i * 30, s, 20) for i, s in enumerate(lines))
-            + text(28, 262, stack, 18, BLUE) + text(692, 262, "OPEN >", 18, GREEN, 'text-anchor="end" font-weight="bold" style="animation:blink 1.2s step-end infinite"')
+    body = (text(28, 40, f"QUEST {num}", 16, GOLD, 'font-weight="bold"') + text(692, 40, role, 16, DIM, 'text-anchor="end"')
+            + text(28, 88, title, 36, col, 'font-weight="bold"')
+            + "".join(text(28, 126 + i * 27, s, 17) for i, s in enumerate(lines))
+            + text(28, 262, stack, 16, BLUE) + text(692, 262, "OPEN >", 16, GREEN, 'text-anchor="end" font-weight="bold" style="animation:blink 1.2s step-end infinite"')
             + art)
     svg(slug, 285, "@keyframes blink{50%{opacity:.25}}" + css, body, col)
 
@@ -60,8 +60,8 @@ def nexus():
         a = -math.pi / 2 + i * 2 * math.pi / 7
         x, y = cx + 88 * math.cos(a), cy + 72 * math.sin(a)
         nodes.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{cx}" y2="{cy}" stroke="{col}" stroke-width="3" stroke-dasharray="4 11" style="animation:flow {.8 + i % 3 * .3:.1f}s linear infinite"/>')
-        nodes.append(f'<rect x="{x - 21:.0f}" y="{y - 12:.0f}" width="42" height="24" rx="5" fill="{BG}" stroke="{col}"/>' + text(round(x), round(y) + 5, n, 13, FG, 'text-anchor="middle"'))
-    nodes.append(f'<circle cx="{cx}" cy="{cy}" r="25" fill="{col}" style="animation:pulse 1.6s infinite"/>' + text(cx, cy + 5, "DISK", 13, BG, 'text-anchor="middle" font-weight="bold"'))
+        nodes.append(f'<rect x="{x - 21:.0f}" y="{y - 12:.0f}" width="42" height="24" rx="5" fill="{BG}" stroke="{col}"/>' + text(round(x), round(y) + 5, n, 12, FG, 'text-anchor="middle"'))
+    nodes.append(f'<circle cx="{cx}" cy="{cy}" r="25" fill="{col}" style="animation:pulse 1.6s infinite"/>' + text(cx, cy + 5, "DISK", 12, BG, 'text-anchor="middle" font-weight="bold"'))
     card("nexuscloud", "01", "NexusCloud", "PROJECT LEAD", ["Seven free cloud tiers, one disk.", "A router picks the bucket."],
          "FastAPI · PostgreSQL · Redis · React", col, "".join(css), "".join(nodes))
 
@@ -70,10 +70,10 @@ def siddai():
     col = "#c3a5ff"
     models = ["gpt-4o", "gemini-2.5-flash", "grok-4.3", "llama3.2", "kimi-k2.5"]
     css = "@keyframes m{0%{opacity:1}20%,100%{opacity:0}}"
-    art = f'<rect x="458" y="70" width="234" height="140" rx="10" fill="#0d0a1c" stroke="{col}"/>' + text(474, 100, "AiClient", 20, FG) + text(474, 128, ".chatQuick(", 20, FG)
+    art = f'<rect x="458" y="70" width="234" height="140" rx="10" fill="#0d0a1c" stroke="{col}"/>' + text(474, 100, "AiClient", 17, FG) + text(474, 128, ".chatQuick(", 17, FG)
     for i, m in enumerate(models):
-        art += text(488, 160, f'"{m}",', 19, GOLD, f'font-weight="bold" opacity="{1 if i == 0 else 0}" style="animation:m 7.5s step-end {i * 1.5 - 7.5}s infinite"')
-    art += text(488, 190, "prompt);", 20, FG)
+        art += text(488, 160, f'"{m}",', 17, GOLD, f'font-weight="bold" opacity="{1 if i == 0 else 0}" style="animation:m 7.5s step-end {i * 1.5 - 7.5}s infinite"')
+    art += text(488, 190, "prompt);", 17, FG)
     card("sidd-ai", "02", "sidd-ai", "CREATOR", ["One Java call, 8 AI providers.", "600+ Maven Central downloads."],
          "Java 17 · Maven · JUnit 5 · Apache 2.0", col, css, art)
 
@@ -99,12 +99,12 @@ def coedit():
         art += (f'<circle cx="{x}" cy="{y}" r="23" fill="{BG}" stroke="{c}" stroke-width="3"/>'
                 f'<circle cx="{x}" cy="{y}" r="9" fill="{c}" style="animation:beat 1.2s {-i * .4}s infinite"/>')
     for i, label in enumerate(["DRAFT", "CRITIQUE"]):
-        art += phase(i, text(575, 215, label, 18, GOLD, 'text-anchor="middle" font-weight="bold"'), 1 if i == 0 else 0)
+        art += phase(i, text(575, 215, label, 16, GOLD, 'text-anchor="middle" font-weight="bold"'), 1 if i == 0 else 0)
     files = f'<rect x="462" y="52" width="228" height="174" rx="8" fill="{BG}"/>'
     for i, n in enumerate(["AGENTS", "ARCHITECTURE", "PRD"]):
         y = 70 + i * 46
         files += (f'<path d="M470 {y}h192l18 14v24h-210z" fill="#f6efe0"/><path d="M662 {y}v14h18z" fill="{col}"/>'
-                  + text(484, y + 26, n + ".md", 17, "#1c1a17", 'font-weight="bold"'))
+                  + text(484, y + 26, n + ".md", 15, "#1c1a17", 'font-weight="bold"'))
     art += phase(2, files)
     card("coedit", "03", "Coedit", "SOLO BUILD", ["Live docs, sheets and drawings.", "AI council. Runs locally for now."],
          "Next.js · Yjs · FastAPI · PostgreSQL", col, "".join(css), art)

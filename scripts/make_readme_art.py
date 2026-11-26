@@ -1,5 +1,5 @@
 """Build the animated SVG panels used by the profile README. Standard library only."""
-import math, pathlib
+import base64, math, pathlib
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets"
 MONO = "ui-monospace,Menlo,Consolas,DejaVu Sans Mono,monospace"
@@ -111,28 +111,19 @@ def coedit():
 
 
 def swara():
-    """Deck skin concept: spinning reel, dot-matrix time and a spectrum. Not an app screenshot."""
-    col = "#ebc96e"
-    css = ("@keyframes eq{from{transform:scaleY(.3)}to{transform:scaleY(1)}}@keyframes spin{to{transform:rotate(360deg)}}"
-           "@keyframes colon{50%{opacity:.2}}")
-    art = f'<rect x="418" y="62" width="274" height="162" rx="14" fill="#17171a" stroke="#34343a" stroke-width="2"/>'
-    art += '<circle cx="482" cy="143" r="52" fill="#0b0b0d" stroke="#3b3b42" stroke-width="3"/>'
-    reel = "".join(f'<rect x="478" y="103" width="8" height="28" rx="4" fill="#3a3a43" transform="rotate({a} 482 143)"/>' for a in (0, 120, 240))
-    art += (f'<g style="transform-origin:482px 143px;animation:spin 3.2s linear infinite">{reel}<circle cx="482" cy="106" r="5" fill="{col}"/>'
-            f'<circle cx="482" cy="143" r="12" fill="{col}"/><circle cx="482" cy="143" r="4" fill="#0b0b0d"/></g>')
-    art += '<rect x="546" y="76" width="134" height="134" rx="8" fill="#050506"/>'
-    digits = {"0": "111101101101111", "1": "010110010010111", "2": "111001111100111", "4": "101101111001001", ":": "000010000010000"}
-    for i, ch in enumerate("01:24"):
-        dots = "".join(f'<circle cx="{556 + i * 26 + p % 3 * 5}" cy="{92 + p // 3 * 7}" r="2.1" fill="{col if on == "1" else "#1d1d20"}"/>'
-                       for p, on in enumerate(digits[ch]))
-        art += f'<g style="animation:colon 1s step-end infinite">{dots}</g>' if ch == ":" else dots
-    for i, n in enumerate([5, 8, 10, 7, 4, 9, 11, 9, 6, 3, 7, 8, 5]):
-        cells = "".join(f'<rect x="{558 + i * 8.6:.1f}" y="{196 - j * 6}" width="6" height="4" fill="{"#ff6a3d" if j > 8 else col}"/>' for j in range(n))
-        art += (f'<g style="transform-box:fill-box;transform-origin:bottom;animation:eq {.7 + i % 4 * .18:.2f}s ease-in-out '
-                f'{-i * .17:.2f}s infinite alternate">{cells}</g>')
-    art += text(555, 240, "DECK SKIN: CONCEPT", 12, DIM, 'text-anchor="middle"')
+    """Frames from a real screen recording of Swara's Deck skin."""
+    frames = sorted((pathlib.Path(__file__).resolve().parent.parent / "assets" / "swara_frames").glob("*.jpg"))
+    n, step = len(frames), 0.25
+    total = n * step
+    css = "@keyframes f{0%%{opacity:1}%.3f%%,100%%{opacity:0}}" % (100 / n)
+    art = '<clipPath id="ph"><rect x="530" y="58" width="138" height="186" rx="12"/></clipPath><g clip-path="url(#ph)">'
+    for i, f in enumerate(frames):
+        data = base64.b64encode(f.read_bytes()).decode()
+        art += (f'<image x="530" y="58" width="138" height="186" preserveAspectRatio="xMidYMid slice" opacity="{1 if i == 0 else 0}" '
+                f'style="animation:f {total}s step-end {i * step - total:.2f}s infinite" href="data:image/jpeg;base64,{data}"/>')
+    art += "</g>"
     card("swara", "04", "Swara", "SOLO BUILD", ["Offline Android music player.", "On-device AI karaoke, ~23 ms."],
-         "Java · Media3 · Room · ONNX Runtime", col, css, art)
+         "Java · Media3 · Room · ONNX Runtime", "#ebc96e", css, art)
 
 
 def stack():

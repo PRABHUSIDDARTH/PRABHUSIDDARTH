@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate contribution games
 
 on:
   schedule:
@@ -22,6 +22,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate ASCII landscape
+        run: python3 scripts/ascii_ghats.py dist/ascii-ghats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3

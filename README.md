@@ -34,6 +34,15 @@ Live vocal removal for karaoke (about 23 ms added latency) and on-device voice c
 
 `Java` `Python` `FastAPI` `Spring Boot` `PostgreSQL` `Redis` `Docker` `Kubernetes` `GCP Cloud Run`
 
+## Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRABHUSIDDARTH/PRABHUSIDDARTH/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/PRABHUSIDDARTH/PRABHUSIDDARTH/output/github-contribution-grid-snake.svg" width="100%" alt="Snake eating my contribution graph" />
+  </picture>
+</p>
+
 ## Problem solving
 
 <p align="center">
